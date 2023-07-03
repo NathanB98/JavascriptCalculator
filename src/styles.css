@@ -4,6 +4,20 @@ body {
     background: linear-gradient(94deg, rgba(215,178,210,1) 23%, rgba(193,181,218,1) 48%, rgba(169,184,226,1) 75%);
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.calc-title > h1 {
+    color: white;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    font-size: 3rem;
+}
+
 .calc-container {
     border: solid 3px slategray;
     border-radius: 25px;
