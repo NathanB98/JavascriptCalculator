@@ -82,7 +82,7 @@ function evaluate() {
 
 //Set the operator to the user selection.
 function updateOperation(operator) {
-    if(currentOperation !== null) evaluateInputs();
+    /*if(currentOperation !== null) evaluateInputs();*/
     firstTerm = SECOND_OPERATION_SCREEN.textContent;
     currentOperation = operator
     FIRST_OPERATION_SCREEN.textContent = `${firstTerm} ${currentOperation}`;
@@ -127,7 +127,7 @@ function operate(operator, valueA, valueB) {
                 alert('You cannot divide by 0');
                 return null
             } else {
-                return remainder(valueA, ValueB);
+                return remainder(valueA, valueB);
             }
         default:
             return null;
