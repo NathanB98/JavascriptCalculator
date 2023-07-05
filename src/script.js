@@ -82,7 +82,6 @@ function evaluate() {
 
 //Set the operator to the user selection.
 function updateOperation(operator) {
-    /*if(currentOperation !== null) evaluateInputs();*/
     firstTerm = SECOND_OPERATION_SCREEN.textContent;
     currentOperation = operator
     FIRST_OPERATION_SCREEN.textContent = `${firstTerm} ${currentOperation}`;
